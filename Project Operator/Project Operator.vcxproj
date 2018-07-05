@@ -115,12 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractA.cpp" />
     <ClCompile Include="CloneA.cpp" />
+    <ClCompile Include="CloneAbstract.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Original.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractA.h" />
     <ClInclude Include="CloneA.h" />
+    <ClInclude Include="CloneAbstract.h" />
     <ClInclude Include="Original.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

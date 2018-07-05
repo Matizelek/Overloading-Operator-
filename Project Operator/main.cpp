@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Original.h"
 #include "CloneA.h"
+#include "AbstractA.h"
+#include "CloneAbstract.h"
 
 using namespace std;
 
@@ -26,6 +28,12 @@ int main() {
 	wsk = &c1;
 
 	cout << *wsk<< "\n";
+
+	CloneAbstract ca(5,22);
+	ca.doubleValues();
+	wsk = &ca;
+	cout << *wsk << "\n";
+
 
 	system("PAUSE");
 	return 0;

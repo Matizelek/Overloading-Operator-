@@ -9,9 +9,9 @@ class Original
 	double imagine;
 public:
 	Original();
-	 Original(double real, double imagine);
-	 Original(const Original &other);
-	 const Original &operator=(const Original &other);
+	Original(double real, double imagine);
+	Original(const Original &other);
+	const Original &operator=(const Original &other);
 	virtual ~Original();
 	virtual double getReal() const ;
 	virtual double getImagine() const ;
