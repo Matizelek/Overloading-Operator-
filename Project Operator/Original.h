@@ -12,10 +12,10 @@ public:
 	 Original(double real, double imagine);
 	 Original(const Original &other);
 	 const Original &operator=(const Original &other);
-	~Original();
-	double getReal() const ;
-	double getImagine() const ;
-	double sum() const;
+	virtual ~Original();
+	virtual double getReal() const ;
+	virtual double getImagine() const ;
+	virtual double sum() const;
 };
 
 Original operator+(const Original &o1, const Original &o2);

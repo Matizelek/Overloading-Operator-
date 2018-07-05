@@ -16,14 +16,16 @@ int main() {
 	CloneA c1(2.0,3.0);
 	CloneA c2 (3,5);
 	
+	Original &o4 = c2;
 
+	cout << o4 << "\n";
 	cout << c1 << "\n";
 	cout << c2 << "\n";
 
 	Original *wsk = &o1;
 	wsk = &c1;
 
-	//cout << *wsk << "\n";
+	cout << *wsk<< "\n";
 
 	system("PAUSE");
 	return 0;
